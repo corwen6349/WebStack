@@ -1,4 +1,4 @@
-baseURL               = "https://bioit.top/"
+baseURL               = "http://localhost:1313/"
 languageCode          = "zh-CN"
 title                 = "WebStack-Hugo 网址导航"
 theme                 = "WebStack-Hugo"
