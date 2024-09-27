@@ -1,0 +1,32 @@
+---
+
+- taxonomy: 常用推荐
+  icon: far fa-star
+  links: 
+    - title: ChatGPT
+      logo: ChatGPT.png
+      url: https://chatgpt.com/
+      description: Get answers. Find inspiration. Be more productive.
+    - title: Github
+      logo: Github.png
+      url: https://github.com/dashboard
+      description: The world’s leading AI-powered developer platform.
+
+
+- taxonomy: AI工具
+  icon: fas fa-flask fa-lg
+  list:
+    - term: AI对话
+      links:
+        - title: ChatGPT
+          logo: ChatGPT.png
+          url: https://chatgpt.com/
+          description: Get answers. Find inspiration. Be more productive.
+        
+    - term: AI音乐
+      links:
+        - title: suno
+          logo: sunoai.png
+          url: https://suno.com/
+          description: Make a song about anything.
+        

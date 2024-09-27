@@ -7,9 +7,11 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="theme-color" content="#f9f9f9" />
-    <title>My New Hugo Site</title>
-    <link rel="shortcut icon" href="http://localhost:1313/" />
-    <meta name="keywords" content="My New Hugo Site" />
+    <title>Corwen的导航小站</title>
+    <link rel="shortcut icon" href="http://localhost:1313/assets/images/favicon.webp" />
+    <meta name="keywords" content="Corwen的导航小站" />
+    
+    <meta name="baidu-site-verification" content="codeva-cCAOSG8MBO" />
     
     <link rel="stylesheet" id="block-library-css"
         href="http://localhost:1313/assets/css/block-library.min-5.6.2.css" type="text/css" media="all" />
@@ -29,6 +31,14 @@
     
     <script>
         
+        var _hmt = _hmt || [];
+            (function () {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?82f3cb9cefb4efcd3f491d23610252c5";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+        
     </script>
     
     
@@ -46,11 +56,11 @@
             <div class="navbar navbar-expand-md">
                 <div class="container-fluid p-0">
 
-                    <a href="" class="navbar-brand d-md-none" title="My New Hugo Site">
-                        <img src="http://localhost:1313/" class="logo-light"
-                            alt="My New Hugo Site">
-                        <img src="http://localhost:1313/" class="logo-dark d-none"
-                            alt="My New Hugo Site">
+                    <a href="" class="navbar-brand d-md-none" title="Corwen的导航小站">
+                        <img src="http://localhost:1313/assets/images/bt.webp" class="logo-light"
+                            alt="Corwen的导航小站">
+                        <img src="http://localhost:1313/assets/images/bt.webp" class="logo-dark d-none"
+                            alt="Corwen的导航小站">
                     </a>
 
                     <div class="collapse navbar-collapse order-2 order-md-1">
@@ -68,40 +78,6 @@
 
                         <ul class="navbar-nav site-menu" style="margin-right: 16px;">
                         
-			<li >
-				<a href="./">
-                                    <i class="fa fa-home fa-lg mr-2"></i>
-                                    <span>首页</span>
-                                </a>
-				<ul class="sub-menu">
-				
-				</ul>
-			    </li>
-			
-			<li >
-				<a href="https://weiyan.cc/">
-                                    <i class="fa fa-book fa-lg mr-2"></i>
-                                    <span>作者</span>
-                                </a>
-				<ul class="sub-menu">
-				
-				</ul>
-			    </li>
-			
-			<li class="menu-item-has-children">
-				<a href="">
-                                    <i class="fa fa-cog fa-lg mr-2"></i>
-                                    <span>关于</span>
-                                </a>
-				<ul class="sub-menu">
-				
-				    <li><a href="https://github.com/shenweiyan/Knowledge-Garden/discussions/10">教程</a></li>
-				
-				    <li><a href="https://github.com/shenweiyan/WebStack-Hugo">源码</a></li>
-				
-				</ul>
-			    </li>
-			
 			</ul>
 
                         
@@ -126,7 +102,7 @@
                                         "fixed": "false",
                                         "vertical": "middle",
                                         "horizontal": "left",
-                                        "key": ""
+                                        "key": "085791e805a24491b43b06cf58ab31e7"
                                     }
                                 }
                             </script>
@@ -138,11 +114,22 @@
                     <ul class="nav navbar-menu text-xs order-1 order-md-2">
                         
                         
-                        
-                        <li class="nav-search ml-3 ml-md-4">
-                            <a href="javascript:" data-toggle="modal" data-target="#search-modal"><i
-                                    class="iconfont icon-search icon-2x"></i></a>
+                        <li class="nav-item mr-3 mr-lg-0 d-none d-lg-block">
+                            <script>
+                                fetch('https://v1.hitokoto.cn')
+                                    .then(response => response.json())
+                                    .then(data => {
+                                    const hitokoto = document.getElementById('hitokoto_text')
+                                    hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
+                                    hitokoto.innerText = data.hitokoto
+                                    })
+                                    .catch(console.error)
+                            </script>                           
+                            <div id="hitokoto"><a href="#" target="_blank" id="hitokoto_text">疏影横斜水清浅，暗香浮动月黄昏。</a></div>
                         </li>
+                        
+                        
+                       
                         <li class="nav-item d-md-none mobile-menu ml-3 ml-md-4">
                             <a href="javascript:" id="sidebar-switch" data-toggle="modal"
                                 data-target="#sidebar"><i class="iconfont icon-classification icon-2x"></i></a>
@@ -160,7 +147,25 @@
     <div class="container">
         <h1 class="mt-5">关于网站</h1>
         <div class="content">
-            <!-- raw HTML omitted -->
+            <h4 id="这是-hugo-版-webstack-主题">这是 Hugo 版 WebStack 主题</h4>
+<p>本项目是基于<strong>纯静态</strong>的网址导航网站 <a href="https://github.com/WebStackPage/WebStackPage.github.io">webstack.cc</a> 制作的 <a href="https://gohugo.io/">Hugo</a> 主题，其中部分代码参考了以下几个开源项目：<br/><br/></p>
+<ul>
+<li><a href="https://github.com/liutongxu/liutongxu.github.io">https://github.com/liutongxu/liutongxu.github.io</a></li>
+<li><a href="https://github.com/iplaycode/webstack-hugo">https://github.com/iplaycode/webstack-hugo</a></li>
+</ul>
+<br/>
+<p>主题安装后，将 exampleSite 目录下的文件复制到 hugo 站点根目录，根据需要把 config.toml 的一些信息改成自己的，导航的网址信息可通过 data 目录下 webstack.yml 修改。</p>
+<p>这是一个开源的公益项目，你可以拿来制作自己的网址导航，也可以做与导航无关的网站。</p>
+<p>WebStack 有非常多的魔改版本，这是其中一个。如果你对本主题进行了一些个性化调整，欢迎来本项目中 issue 分享一下！</p>
+<br/>
+<h4 id="主题开源地址">主题开源地址</h4>
+<p><a href="https://github.com/shenweiyan/webstack-hugo">https://github.com/shenweiyan/webstack-hugo</a></p>
+<br/>
+<h4 id="主题演示地址">主题演示地址</h4>
+<ul>
+<li><a href="https://nav.bioitee.com">https://nav.bioitee.com</a></li>
+<li><a href="https://shenweiyan.github.io/webstack-hugo">https://shenweiyan.github.io/webstack-hugo</a></li>
+</ul>
 
         </div>
     </div>
@@ -190,9 +195,7 @@
                     rel="search" one-link-mark="yes">
                     <i class="iconfont icon-search"></i>
                 </a>
-                <a href="https://www.yuque.com/shenweiyan" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="tooltip" data-placement="left" title="联系我们">
-                    <i class="mode-ico iconfont icon-qq"></i>
-                </a>
+               
                 
                 
 		<a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'" class="btn rounded-circle switch-dark-mode m-1" id="yejian"
@@ -202,7 +205,7 @@
                 
             </div>
             <div class="footer-inner">
-                <div class="footer-text"></div>
+                <div class="footer-text">本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：corwen6349@gmail.com <br/>© 2024 - 2024 By <a href="https://github.com/corwen6349/WebStack">WebStack-Hugo</a> <br/></div>
             </div>
         </footer>
     </div>
@@ -304,11 +307,11 @@ var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/
     }
 })();
 
-$("#search-bg").css("background-image", "url()");   
+$("#search-bg").css("background-image", "url(assets\/images\/bg-dna.webp)");   
 function switchNightMode(){
     var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
     if(night == '0'){
-	$("#search-bg").css("background-image", "url()");
+	$("#search-bg").css("background-image", "url(assets\/images\/bg-dna.webp)");
         document.body.classList.remove('io-grey-mode');
         document.body.classList.add('io-black-mode');
         document.cookie = "night=1;path=/"
@@ -317,7 +320,7 @@ function switchNightMode(){
         $(".mode-ico").removeClass("icon-night");
         $(".mode-ico").addClass("icon-light");
     }else{
-	$("#search-bg").css("background-image", "url()")
+	$("#search-bg").css("background-image", "url(assets\/images\/bg-dna.webp)")
         document.body.classList.remove('io-black-mode');
         document.body.classList.add('io-grey-mode');
         document.cookie = "night=0;path=/"
