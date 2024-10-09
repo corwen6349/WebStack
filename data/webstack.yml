@@ -13,20 +13,100 @@
       description: The world’s leading AI-powered developer platform.
 
 
-- taxonomy: AI工具
+- taxonomy: 工具服务
   icon: fas fa-flask fa-lg
   list:
-    - term: AI对话
+    - term: AI工具
       links:
         - title: ChatGPT
           logo: ChatGPT.png
           url: https://chatgpt.com/
           description: Get answers. Find inspiration. Be more productive.
-        
-    - term: AI音乐
-      links:
         - title: suno
           logo: sunoai.png
           url: https://suno.com/
           description: Make a song about anything.
+    - term: 媒体工具
+      links:
+        - title: iconfont
+          logo: Iconfont.png
+          url: https://www.iconfont.cn/
+          description: iconfont-阿里巴巴矢量图标库
+    - term: 开发工具
+      links:
+        - title: 阿里云
+          logo: 阿里云.png
+          url: https://www.aliyun.com
+          description: 超值优选 上云必选-阿里云
+      
+      
+- taxonomy: 社交服务
+  icon: fas fa-flask fa-lg
+  list:
+    - term: 邮箱服务
+      links:
+        - title: Gmail
+          logo: gmail.png
+          url: https://mail.google.com/
+          description: 谷歌邮箱
+        - title: 163邮箱
+          logo: 163邮箱.png
+          url: https://mail.163.com/
+          description: 网易163邮箱
+        - title: QQ邮箱
+          logo: QQ邮箱.png
+          url: https://mail.qq.com/
+          description: QQ邮箱，常联系！
+        
+    - term: 视频平台
+      links:
+        - title: YouTube
+          logo: youtube.png
+          url: https://www.youtube.com/
+          description: 油管视频.
+        - title: 哔哩哔哩
+          logo: bilibili.png
+          url: https://www.bilibili.com/
+          description: 哔哩哔哩 (゜-゜)つロ 干杯~-bilibili
+        - title: 抖音
+          logo: 抖音.png
+          url: https://www.douyin.com
+          description: 抖音-记录美好生活
+  
+- taxonomy: 自媒体平台
+  icon: fas fa-flask fa-lg
+  list:
+    - term: 音乐自媒体
+      links:
+        - title: 腾讯音乐人
+          logo: txyyr.png
+          url: https://y.tencentmusic.com/#/index
+          description: 腾讯音乐人创作平台
+        - title: 抖音音乐人
+          logo: 抖音.png
+          url: https://music.douyin.com/console
+          description: 抖音音乐开放平台｜看见音乐看见你
+        - title: 网易音乐人
+          logo: 网易云音乐.png
+          url: https://music.163.com/musician/artist/home
+          description: 网易音乐人
+        
+    - term: 视频自媒体
+      links:
+        - title: YouTube
+          logo: youtube.png
+          url: https://www.youtube.com/
+          description: 油管视频.
+        - title: 哔哩哔哩
+          logo: bilibili.png
+          url: https://www.bilibili.com/
+          description: 哔哩哔哩 (゜-゜)つロ 干杯~-bilibili
+        - title: 抖音
+          logo: 抖音.png
+          url: https://www.douyin.com
+          description: 抖音-记录美好生活
+        - title: 百家号
+          logo: 百家号.png
+          url: https://baijiahao.baidu.com/
+          description: 百家号
         
