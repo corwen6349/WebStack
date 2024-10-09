@@ -22,6 +22,10 @@
           logo: ChatGPT.png
           url: https://chatgpt.com/
           description: Get answers. Find inspiration. Be more productive.
+        - title: Kimi
+          logo: kimi.png
+          url: https://kimi.moonshot.cn/
+          description: Kimi.ai - 帮你看更大的世界
         - title: suno
           logo: sunoai.png
           url: https://suno.com/
