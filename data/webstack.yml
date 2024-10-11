@@ -11,6 +11,10 @@
       logo: Github.png
       url: https://github.com/dashboard
       description: The world’s leading AI-powered developer platform.
+    - title: Notion
+      logo: pd_notion.png
+      url: https://www.notion.so
+      description: Notion
 
 
 - taxonomy: 工具服务
@@ -18,6 +22,10 @@
   list:
     - term: AI工具
       links:
+        - title: Hugging Face
+          logo: huggingface.png
+          url: https://huggingface.co/
+          description: The AI community building the future.
         - title: ChatGPT
           logo: ChatGPT.png
           url: https://chatgpt.com/
@@ -36,6 +44,14 @@
           logo: Iconfont.png
           url: https://www.iconfont.cn/
           description: iconfont-阿里巴巴矢量图标库
+        - title: MVSEP
+          logo: MVSEP.png
+          url: https://mvsep.com/en/home
+          description: Music & Voice Separation
+        - title: moises
+          logo: moises-primary-logo-white.png
+          url: https://studio.moises.ai/library/
+          description: The Musician's App | Remove vocals and instruments from any song
     - term: 开发工具
       links:
         - title: 阿里云
