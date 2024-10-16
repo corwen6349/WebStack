@@ -117,10 +117,10 @@
         
     - term: 视频自媒体
       links:
-        - title: YouTube
+        - title: YouTuber
           logo: youtube.png
-          url: https://www.youtube.com/
-          description: 油管视频.
+          url: https://www.youtube.com/@CorwenHuang%E7%88%B1%E9%9F%B3%E4%B9%90
+          description: 油管视频我的频道
         - title: 哔哩哔哩创作中心
           logo: bilibili.png
           url: https://member.bilibili.com/platform/home
@@ -133,4 +133,16 @@
           logo: 百家号.png
           url: https://baijiahao.baidu.com/
           description: 百家号
+        - title: 头条号
+          logo: 今日头条.png
+          url: https://mp.toutiao.com/profile_v4/index
+          description: 今日头条
+        - title: 西瓜创作平台
+          logo: 西瓜视频.png
+          url: https://studio.ixigua.com/
+          description: 西瓜创作平台
+        - title: QQ短视频创作者中心
+          logo: QQ.png
+          url: https://qqzz.qq.com/index
+          description: QQ短视频创作者中心
         
