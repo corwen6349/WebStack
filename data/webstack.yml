@@ -52,6 +52,10 @@
           logo: moises-primary-logo-white.png
           url: https://studio.moises.ai/library/
           description: The Musician's App | Remove vocals and instruments from any song
+        - title: sunoprompt
+          logo: sunoprompt.webp
+          url: https://sunoprompt.com/zh
+          description: 最佳Suno提示词|Suno風格提示和歌詞生成器
     - term: 开发工具
       links:
         - title: 阿里云
@@ -117,13 +121,13 @@
           logo: youtube.png
           url: https://www.youtube.com/
           description: 油管视频.
-        - title: 哔哩哔哩
+        - title: 哔哩哔哩创作中心
           logo: bilibili.png
-          url: https://www.bilibili.com/
+          url: https://member.bilibili.com/platform/home
           description: 哔哩哔哩 (゜-゜)つロ 干杯~-bilibili
-        - title: 抖音
+        - title: 抖音开放平台
           logo: 抖音.png
-          url: https://www.douyin.com
+          url: https://creator.douyin.com/creator-micro/home
           description: 抖音-记录美好生活
         - title: 百家号
           logo: 百家号.png
