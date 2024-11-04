@@ -96,6 +96,21 @@
           logo: 抖音.png
           url: https://www.douyin.com
           description: 抖音-记录美好生活
+    
+    - term: 网盘服务
+      links:
+        - title: 百度网盘
+          logo: 百度网盘.png
+          url: https://pan.baidu.com/
+          description: 记录每一份热爱，让美好永远陪伴
+        - title: 阿里云盘
+          logo: 阿里云盘.png
+          url: https://www.alipan.com/
+          description: 安全、高效、开放
+        - title: 城通网盘
+          logo: 城通网盘.png
+          url: https://www.ctfile.com/
+          description: 城通网盘
   
 - taxonomy: 自媒体平台
   icon: fas fa-flask fa-lg
@@ -121,6 +136,10 @@
           logo: youtube.png
           url: https://www.youtube.com/@CorwenHuang%E7%88%B1%E9%9F%B3%E4%B9%90
           description: 油管视频我的频道
+        - title: TikTok
+          logo: 抖音.png
+          url: https://www.tiktok.com/tiktokstudio
+          description: TikTok
         - title: 哔哩哔哩创作中心
           logo: bilibili.png
           url: https://member.bilibili.com/platform/home
