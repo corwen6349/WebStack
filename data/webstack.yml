@@ -38,6 +38,43 @@
           logo: sunoai.png
           url: https://suno.com/
           description: Make a song about anything.
+        - title: Runway
+          logo: Runwayml.png
+          url: https://app.runwayml.com/video-tools/teams/corwen3392/dashboard
+          description: Everything you need to make anything you want.
+        - title: Hailuo
+          logo: 海螺AI.png
+          url: https://hailuoai.video/
+          description: Hailuo AI Video Generator - Reimagine Video Creation.
+        - title: Vidu
+          logo: Vidu.png
+          url: https://www.vidu.studio/
+          description: Vidu AI - Powerful AI Video Generator.
+        - title: Pika
+          logo: pika.ico
+          url: https://pika.art/try
+          description: The idea-to-video platform that sets your creativity in motion.
+        - title: vivago
+          logo: vivago.ico
+          url: https://vivago.ai/home
+          description: vivago.ai: Bring Every Moment To Life.
+        - title: Luma
+          logo: Luma.svg
+          url: https://lumalabs.ai/dream-machine
+          description: vivago.ai: Luma Dream Machine | AI Video Generator.
+        - title: PixVerse
+          logo: pixverse.svg
+          url: https://app.pixverse.ai/home
+          description: vivago.ai: PixVerse - Create breath-taking videos with PixVerse AI.
+        - title: Meta
+          logo: meta.svg
+          url: https://ai.meta.com/
+          description: vivago.ai: AI at Meta.
+        - title: 可灵
+          logo: 可灵.png
+          url: https://klingai.kuaishou.com/
+          description: vivago.ai: 可灵 AI - 新一代 AI 创意生产力平台.
+
     - term: 媒体工具
       links:
         - title: iconfont
