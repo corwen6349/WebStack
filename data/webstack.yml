@@ -148,6 +148,10 @@
           logo: 城通网盘.png
           url: https://www.ctfile.com/
           description: 城通网盘
+        - title: 360AI云盘
+          logo: 360云盘.png
+          url: https://www.yunpan.com/file/index#/fileManage/my/file/%2F
+          description: 360AI云盘 -  新文件管理
   
 - taxonomy: 自媒体平台
   icon: fas fa-flask fa-lg
